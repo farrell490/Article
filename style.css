@@ -1,0 +1,152 @@
+body{
+    font: 16px/28px arial, sans-serif;
+   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zU1bL6TOBc1mub8-Up9-k4uHuVXXg91QvQ&usqp=CAU);
+}
+.container{
+    width: 960px;
+   
+    margin: 80px auto;
+    background-color: white;
+    position: relative;
+}
+
+.twitter{
+    width: 200px;
+    height: 200px;
+    background-image: url(http://iconbug.com/data/0d/128/a77fcf65d98a9da80c38a82a266a8cc0.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -15px;
+    right: -90px;
+    
+
+    
+    
+    
+}
+
+.header{
+    padding: 20px;
+  
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+        font-variant: small-caps;
+      font-style: oblique;
+  color: rgb(128, 4, 0);
+  
+  
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.header ul{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+
+}
+
+.hero{
+    height: 450px;
+    background-image: url(https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/66/thumb_65973_default_news_size_5.jpeg) ;
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid rgb(236, 153, 75);
+    border-bottom: 5px solid rgb(236, 153, 75);
+    
+    
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main .penulis a{
+color: salmon;
+text-decoration: none;
+}
+
+.main .penulis{
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.main p{
+    margin-bottom: 20px;
+}
+
+.sidebar{
+    width: 300px;
+    float: left;
+    padding: 30px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: #666;
+}
+
+.sidebar img{
+    width: 200px;
+    height: 200px;
+    
+    padding-right: 30px;
+}
+.sidebar p{
+    font-size: small;
+}
+
+.footer{
+    background-color: grey;
+    padding: 20px;
+}
+
+.footer .copy{
+    color: bisque;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
